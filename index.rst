@@ -7,12 +7,12 @@
 
 
 Abstract
-========
+===========================================================
 
 The Polycold chiller in the AuxTel dome needs to be recharged periodically (approximately once a year) to keep the coolant pressures high enough.  This technote describes the procedure.
 
 Introduction
-========================================
+===========================================================
 
 The AuxTel CCD needs to operate at approximately -100C in order to function properly.  To keep the CCD cold, the system employs a Polycold Compact Cooler (PCC).  The compressor is located on the first floor of the AuxTel dome, next to the CCD electronics cabinet.  The coolant fluid, called PT-30, is a proprietary mixture of hydrocarbons, believed to consist of propane, ethane, and methane. The compressor pumps high pressure gas up to the second floor of the dome and into the red Dewar chamber which contains the CCD.  Inside the Dewar chamber is the cold head, which allows the high pressure fluid to expand through a small opening, cooling the cold head.  The coolant liines that carry the collant to and from the CCD Dewar are jacketed with a stainless steel braid.  It's important to remember that since the lines are about 30 meters long, most of the coolant is in the lines, not in the compressor.  So when you are re-charging the system, you are really re-filling the lines.
 
@@ -26,7 +26,7 @@ Figure 1: Aeroquip fittings, which prevent gas from escaping or air from enterin
 
 
 How to know when the system needs re-charging
-========================================
+===========================================================
 
 The pressure on the high-pressure (supply) and low-pressure (return) are monitored by the pressure gauges which are attached to the compressor and read by the electronics sitting on top of the compressor.  These pressures are available in the EFD.  In normal operation, the high pressure side should be at 275-350 PSI (1900-2400 kPA).  Over time, there is a small amount of leakage and the pressure drops. In 2022, as these pressures dropped, we started to see excursions where the temperature of the cold head would rise abruptly, especially when the exterior temperatures went down.   When the cold head lost cooling capacity, both the high and low side pressured would drop further.  Figures 2 and 3 show these excursions and how a re-charge of the coolant as described in this technote fixed the issue.
 
@@ -39,7 +39,7 @@ Figure 2: Temperature rise event showing sudden rise in cold head temperature an
 Figure3: Correlation of temperature rise events with external temperature and how re-charging fixed the problem.
 
 Recharge Procedure
-========================================
+===========================================================
 
 Evacuating the recharge system must be done prior to refilling. There are many couplings so caution must be taken to make sure there are no leaks before connecting to the polycold compressor.
 It is recommended to pump in stages to make sure no components are leaking.  The procedure is described below, followed by pictures of each stage. 
