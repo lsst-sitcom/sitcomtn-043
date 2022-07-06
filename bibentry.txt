@@ -1,0 +1,9 @@
+% bibentry template for lsst.bib in https://github.com/lsst/lsst-texmf/blob/main/texmf/bibtex/bib/lsst.bib
+
+@DocuShare{SITCOMTN-043,
+   author = { Craig Lage },
+    title = {Recharge of the Auxiliary Telescope Polycold chiller.},
+     year = 2022,
+    month = Jul,
+   handle = {SITCOMTN-043},
+      url = {https://sitcomtn-043.lsst.io } }
