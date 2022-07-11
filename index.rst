@@ -28,7 +28,7 @@ Figure 1: Aeroquip fittings, which prevent gas from escaping or air from enterin
 How to know when the system needs re-charging
 ===========================================================
 
-The pressure on the high-pressure (supply) and low-pressure (return) are monitored by the pressure gauges which are attached to the compressor and read by the electronics sitting on top of the compressor.  These pressures are available in the EFD.  In normal operation, the high pressure side should be at 275-350 PSI (1900-2400 kPA).  Over time, there is a small amount of leakage and the pressure drops. In 2022, as these pressures dropped, we started to see excursions where the temperature of the cold head would rise abruptly, especially when the exterior temperatures went down.   When the cold head lost cooling capacity, both the high and low side pressured would drop further.  Figures 2 and 3 show these excursions and how a re-charge of the coolant as described in this technote fixed the issue.
+The pressure on the high-pressure (supply) and low-pressure (return) are monitored by the pressure gauges which are attached to the compressor and read by the electronics sitting on top of the compressor.  These pressures are available in the EFD.  They can be read in the "AuxTel (LATISS) Temperatures and Pressures" dashboard, or in the EFD at the "lsst.sal.ESS.pressure" variable.  pressure0 is the high side pressure and pressure1 is the low side.  These pressures are in Pascal.  In normal operation, the high pressure side should be at 275-350 PSI (1900-2400 kPA).  Over time, there is a small amount of leakage and the pressure drops. In 2022, as these pressures dropped, we started to see excursions where the temperature of the cold head would rise abruptly, especially when the exterior temperatures went down.   When the cold head lost cooling capacity, both the high and low side pressured would drop further.  Figures 2 and 3 show these excursions and how a re-charge of the coolant as described in this technote fixed the issue.
 
 .. figure:: /_static/Temp_Rise_Event_16Jun22.png
 
@@ -90,13 +90,13 @@ It is recommended to pump in stages to make sure no components are leaking.  The
 
 #. Turn the compressor back on.  Let it operate for a few minutes to achieve equilibrium pressure.
    
-#. Open the valve at the gas bottle while watching the line pressures.  When the high side pressure has reached 275-300 PSI, close the valve at the gas bottle.
+#. Open the valve at the gas bottle while watching the line pressures.  When the high side pressure has reached 275-300 PSI (1900-2070 kPa), close the valve at the gas bottle.
 
 #. Turn off the compressor.
 
 #. Disconnect the compressor fixture from the compressor, attaching the supply and return lines as they were originally.
 
-#. Turn the compressor back on.  The pressures should eventually achieve 275-350PSI on the high side and 50-75 PSI on the low side and the system should be cooling well, with the cold head cooling to about -140C to  -150C (123K-133K).
+#. Turn the compressor back on.  The pressures should eventually achieve 275-350PSI (1900-2410 kPa) on the high side and 50-75 PSI (345-520 kPa) on the low side and the system should be cooling well, with the cold head cooling to about -140C to  -150C (123K-133K).
 
 #. With the gas bottle valve closed, pump out both the tank fixture and the compressor fixture to remove coolant gas from these fixtures.  Then remove the tank fixture from the gas bottle and store the pump and fixture in the AuxTel storage container until they are needed next.
 
