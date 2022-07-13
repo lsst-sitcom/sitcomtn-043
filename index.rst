@@ -11,7 +11,7 @@ Abstract
 
 The Polycold chiller in the AuxTel dome needs to be recharged periodically (approximately once a year) to keep the coolant pressures high enough.  This technote describes the procedure.
 
-In addition, the internal abosrber in the chiller compressor needs to be changed out approximately once per year.  This technote also documents that procedure.
+In addition, the internal absorber in the chiller compressor needs to be changed out approximately once per year.  This technote also documents that procedure.
 
 Introduction
 ===========================================================
