@@ -11,6 +11,7 @@ Abstract
 
 The Polycold chiller in the AuxTel dome needs to be recharged periodically (approximately once a year) to keep the coolant pressures high enough.  This technote describes the procedure.
 
+In addition, the internal abosrber in the chiller compressor needs to be changed out approximately once per year.  This technote also documents that procedure.
 Introduction
 ===========================================================
 
@@ -121,6 +122,39 @@ Figure 7: Pumping the combined fixture.
 .. figure:: /_static/Charging.jpg
 
 Figure 8: After completing the pumping and charging the fixtures with coolant, this shows the entire system connected to the compressor for charging.
+
+
+Changing the internal absorber and swapping compressors.
+===========================================================
+
+The Polycold chiller compressor contains an internal absorber that removes contaminants from the refrigeration fluid.  Note that there is also an external absorber mounted on the wall behind the compressor.  The internal absorber needs to be changed out about once per year and replaced with a new absorber.  
+
+The easiest way to perform the absorber change is as follows:
+
+#. Get the spare compressor, which is stored in the AuxTel shipping container. Also in the container you should find a new internal absorber.  If it is not there, it will need to be ordered.
+
+#. Replace the internal absorber in the spare compressor.  The steps to do this are shown in detail in the Polycold manual, and those pages are copied below.  The old absorber should be discarded.  It should be given to the Rubin safety team so it can be discarded safely.
+
+#. Turn off the compressor, move the supply and return lines to the new compressor and turn the new compressor on.  This should be done as quickly as possible so that warm-up of the Dewar is minimized.
+
+#. Put the old compressor (which is now the spare) back in the AuxTel container until the next swap.
+
+   .. figure:: /_static/Chiller_swap.jpg
+
+Figure 9: Preparing for chiller swap.  The current compressor is on the left, the spare unit is on the right.  The new internal absorber is on top of the spare unit.
+
+Internal absorber swap details from Polycold manual (link available below):
+--------------------------------------------------------------------------------------------------------------
+
+
+    .. figure:: /_static/Polycold_Manual_62.png
+
+    .. figure:: /_static/Polycold_Manual_63.png
+
+    .. figure:: /_static/Polycold_Manual_64.png
+
+    .. figure:: /_static/Polycold_Manual_65.png		
+
 
 Polycold manual
 ========================================
