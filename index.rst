@@ -92,7 +92,7 @@ It is recommended to pump in stages to make sure no components are leaking.  The
 
 #. Turn the compressor back on.  Let it operate for a few minutes to achieve equilibrium pressure.
    
-#. Open the valve at the gas bottle while watching the line pressures.  When the high side pressure has reached 275-300 PSI (1900-2070 kPa), close the valve at the gas bottle.
+#. Open the valve at the gas bottle while watching the line pressures.  When the high side pressure has reached 275-300 PSI (1900-2070 kPa), close the valve at the gas bottle.  Note that it is very important that either the valve at the gas bottle or the valve connecting the tank fixture to the compressor fixture (yellow line in Figure 8) are closed when you turn on the compressor.  The recharge process happens very fast, and if these are not closed, you can easily overcharge the system.
 
 #. Turn off the compressor.
 
@@ -124,6 +124,42 @@ Figure 7: Pumping the combined fixture.
 
 Figure 8: After completing the pumping and charging the fixtures with coolant, this shows the entire system connected to the compressor for charging.
 
+Notes on line icing and system overcharging
+===========================================================
+
+When the system was recharged in June, 2022, during the southern winter, the system was slightly overcharged.  After the recharge procedure, the system high side pressure was about 305 PSI, slightly above the 300 PSI maximum stated in the manual.  However, as the weather warmed and we moved into the southern summer, the pressures in the system rose steadily, and by January, 2023 the high side pressure had reached 360 PSI, well above the 300 PSI limit.  Also as the weather warmed, we started to see significant icing on the chiller return line near the Dewar.  See FIgure 9.
+
+To alleviate this, the compressor was stopped for a short period, the return line was disconnected from the Dewar, the return line was de-iced, an unbroken length of insulation was slid onto the return line, the return line was re-attached, and the compressor was re-started.  As seen in Figure 10, this was done without the CCD warming significantly.
+
+After this was done, There was no longer icing near the Dewar, but significant icing was seen at the end of the insulation, in the cable wrap, as seen in Figure 11 and 12.  Since we had not seen this heavy icing in the past, the hypothesis was that the icing was due to the high pressures that resulted from the overcharging, leading to basically too much cooling capacity.  So in January, 2023,  gas was bled out from the system in two steps to reduce the maximum pressure.  This was accomplished by connecting the compressor fixture to the compressor and slowly opening the valve (with the compressor off) to bleed out gas.  It is important that the vent windows are open and the vent fan is on during this procedure to prevent the flammable coolant gas from building up to potentially explosive levels.  Figure 13 shows the reduction in pressure that resulted from this process, bringing the max high side pressure down to 315 PSI.  After doing this, light frost was still seen occasionally on the return line in the cable wrap, but not the heavy icing that was seen earlier.  However, this needs to be monitored in the future.
+
+
+
+.. figure:: /_static/Before_new_insulation_20221214.jpg
+
+Figure 9: After removing the split insulation from the chiller lines, ice build up that could potentially force the lines apart was seen.
+
+.. figure:: /_static/Insulation_15Dec22.png
+
+Figure 10: Temperature and pressure rise during the return line de-icing and insulation procedure on 15-Dec-22.  This was accomplished without the CCD warming significantly.  The turbopump was attached to the Dewar during this procedure to prevent the pressure from rising too much.
+
+.. figure:: /_static/Cable_wrap_1_20230110.jpg
+
+Figure 11: Line icing in the cable wrap.
+
+.. figure:: /_static/Cable_wrap_2_20230110.jpg
+
+Figure 12: Line icing in the cable wrap.
+
+.. figure:: /_static/Gas_Bleed_Jan23.png
+
+Figure 13: Gas was bled out of the system in two steps to reduce the system pressure.
+
+
+
+
+
+
 
 Changing the internal absorber and swapping compressors.
 ===========================================================
@@ -142,7 +178,7 @@ The easiest way to perform the absorber change is as follows:
 
    .. figure:: /_static/Chiller_swap.jpg
 
-Figure 9: Preparing for chiller swap.  The current compressor is on the left, the spare unit is on the right.  The new internal absorber is on top of the spare unit.
+Figure 14: Preparing for chiller swap.  The current compressor is on the left, the spare unit is on the right.  The new internal absorber is on top of the spare unit.
 
 Internal absorber swap details from Polycold manual (link available below):
 --------------------------------------------------------------------------------------------------------------
